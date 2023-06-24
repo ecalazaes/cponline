@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+  
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+  
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+  
+    <title>CP Online</title>
+  </head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">CP Online</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="presenca.html">Presença</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="atestado.html">Atestado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="relatorio.html">Relatórios</a>
+            </li>       
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <aside class="sidebar">
+    <div class="toggle">
+      <a href="#" class="burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span></span>
+      </a>
+    </div>
+    <div class="side-inner">
+
+      <div class="profile">
+        <img src="images/person_4.jpg" alt="Image" class="img-fluid">
+        <h3 class="name">Eric Calazães</h3>
+        <span class="country">Aluno Faculdade Senac</span>
+      </div>
+
+      <div class="nav-menu">
+        <ul>
+          <li class="accordion">
+            <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+              aria-controls="collapseOne" class="collapsible">
+              <span class="icon-home mr-3"></span>Teste
+            </a>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+              <div>
+                <ul>
+                  <li><a href="presenca.html">Confirmar Presença</a></li>
+                  <li><a href="atestado.html">Justificar Ausência</a></li>
+                  <li><a href="relatorio.html">Emitir Relatórios</a></li>                  
+                </ul>
+              </div>
+            </div>
+          </li> 
+          <li><a href="index.html"><span class="icon-sign-out mr-3"></span>Sair</a></li>         
+        </ul>
+      </div>
+    </div>
+
+  </aside>
+  <main>
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col p-5">
+            <h2>Confirmação de Presença</h2>
+            <p>Por favor, selecione sua turma e as disciplinas:</p>
+
+            <form>
+              <div class="form-group">
+                <label for="inputTurma">Turma:</label>
+                <select class="form-control" id="inputTurma">
+                  <option value="">Selecione a Turma</option>
+                  <option value="2023.1">2023.1</option>
+                  <!-- Adicione mais opções de turmas, se necessário -->
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="mt-3" for="inputDisciplinas">Disciplinas:</label>
+                <select multiple class="form-control" id="inputDisciplinas">
+                  <option value="">Selecione as Disciplinas</option>
+                  <option value="Projeto integrador 1">Projeto integrador 1</option>
+                  <option value="Arquitetura de computadores">Arquitetura de computadores</option>
+                  <option value="Tecnologia Web 1">Tecnologia Web 1</option>
+                  <option value="Engenharia de Usabilidade">Engenharia de Usabilidade</option>
+                  <option value="Responsabilidade Social">Responsabilidade Social</option>
+                  <option value="Raciocínio lógico e matemático">Raciocínio lógico e matemático</option>
+                  <option value="Engenharia de Software 1">Engenharia de Software 1</option>
+                  <option value="Introdução a redes de computadores">Introdução a redes de computadores</option>
+                  <option value="Introdução a programação">Introdução a programação</option>
+                  <!-- Adicione mais opções de disciplinas, se necessário -->
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-primary mt-3">Confirmar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="container-fluid">
+
+    <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="bi bi-facebook"></i>
+        </a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="bi bi-twitter"></i>
+        </a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="bi bi-google"></i>
+        </a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="bi bi-instagram"></i>
+        </a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="bi bi-linkedin"></i>
+        </a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="bi bi-github"></i>
+        </a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright    
+    </div>
+    <!-- Copyright -->
+  </footer>
+    
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
