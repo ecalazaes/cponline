@@ -43,9 +43,13 @@ body {
 .site-section {
   padding: 7rem 0; }
 
-aside, main {
+aside {
   height: 100vh;
   min-height: 580px; }
+
+main {
+  height: 88.2vh;
+}
 
 aside {
   width: 300px;
