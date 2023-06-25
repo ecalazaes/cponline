@@ -44,7 +44,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Início</a>
+              <a class="nav-link" href="inicio.html">Início</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="presenca.html">Presença</a>
@@ -103,9 +103,9 @@
   <!-- Conteudo do site -->
   <main>
     <div class="site-section">
-      <div class="container">
+      <div class="container ">
         <div class="row">
-          <div class="col p-5">
+          <div class="col p-5 ">
             <h2>Confirmação de Presença</h2>
             <p>Por favor, selecione sua turma e as disciplinas:</p>
 
@@ -135,9 +135,21 @@
                   <!-- Adicione mais opções de disciplinas, se necessário -->
                 </select>
               </div>
-
-              <button type="submit" class="btn btn-primary mt-3">Confirmar</button>
+              <button type="submit" class="btn btn-primary mt-3">Confirmar Presença</button>
             </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col p-5">
+            <h2>Confirmação de Presença por QR Code</h2>
+            <div id="qr-code">
+            <!-- Aqui você pode adicionar uma imagem do QR Code para visualização -->
+              <i class="bi bi-qr-code tamlogo"></i>
+            </div>
+            <button class="btn btn-primary btn-confirm">Confirmar Presença</button>
           </div>
         </div>
       </div>
