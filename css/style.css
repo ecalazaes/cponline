@@ -281,7 +281,7 @@ main {
 .main-title {
   color: #444;
   margin: 0 0 65px 0;
-  font-size: 40px;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -363,4 +363,9 @@ main {
 #contact-form .main-btn:hover {
   color: #3ec1d5;
 }
+
+.lh-5 {
+  line-height: 33px;
+}
+
 
